@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">slogan</string>
+    <string name="action_splash">splash</string>
+    <string name="app_name">广点通联盟SDKDemo</string>
+    <string name="click_to_skip">点击跳过</string>
+    <string name="gdtslogan">GDTslogan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_banner">广点通：横幅广告</string>
+    <string name="title_activity_gdtnative_video_ad">原生视频广告-ListView示例</string>
+    <string name="title_activity_interstitial_ad">广点通：插屏广告</string>
+    <string name="title_activity_maindemo">广点通：结盟而赢</string>
+    <string name="title_activity_native_express">原生广告-模板渲染示例</string>
+    <string name="title_activity_native_express_recycler_view">原生广告-模板渲染列表示例</string>
+    <string name="title_activity_native_video_ad">原生视频广告接入示例</string>
+    <string name="title_activity_native_video_demo">原生视频广告-基本示例</string>
+    <string name="title_activity_native_video_pre_movie">原生视频广告-前贴片示例</string>
+    <string name="title_activity_native_video_recycler_view">原生视频广告-RecyclerView示例</string>
+    <string name="title_activity_native_video_scroll_view">原生视频广告-ScrollView示例</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_nativead">广点通：原生广告</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

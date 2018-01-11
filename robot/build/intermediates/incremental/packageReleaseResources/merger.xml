@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\workspace\WeChat\robot\src\main\res"/><source path="D:\workspace\WeChat\robot\build\generated\res\rs\release"/><source path="D:\workspace\WeChat\robot\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\workspace\WeChat\robot\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\workspace\WeChat\robot\src\main\res"><file path="D:\workspace\WeChat\robot\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="app_name">小乖机器人</string></file><file path="D:\workspace\WeChat\robot\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        
+    </style></file><file path="D:\workspace\WeChat\robot\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        
+    </style></file><file path="D:\workspace\WeChat\robot\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+    </style></file></source><source path="D:\workspace\WeChat\robot\build\generated\res\rs\release"/><source path="D:\workspace\WeChat\robot\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\workspace\WeChat\robot\src\release\res"/></dataSet><mergedItems/></merger>

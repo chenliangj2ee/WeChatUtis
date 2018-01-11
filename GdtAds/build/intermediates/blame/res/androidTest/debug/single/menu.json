@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\interstitial_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\menu\\interstitial_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\banner.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\menu\\banner.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\splash.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\menu\\splash.xml"
+    }
+]

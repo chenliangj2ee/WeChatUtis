@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qq.e.union.demo.test" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.qq.e.union.demo.test"
+        android:targetPackage="com.qq.e.union.demo.test" />
+    <!-- SDK 相关声明 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 如果需要精确定位的话请加上此权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+        <!-- targetSDKVersion >= 24时才需要添加这个provider。provider的authorities属性的值为${applicationId}.fileprovider，请开发者根据自己的${applicationId}来设置这个值，例如本例中applicationId为"com.qq.e.union.demo"。 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.qq.e.union.demo.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/gdt_file_path" />
+        </provider> <!-- 声明SDK所需要的组件 -->
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false" /> <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
+        <activity
+            android:name="com.qq.e.ads.ADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" /> <!-- 声明该Demo中的组件 -->
+        <activity
+            android:name="com.qq.e.union.demo.DemoListActivity"
+            android:label="@string/title_activity_maindemo"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qq.e.union.demo.BannerActivity"
+            android:label="@string/title_activity_banner" />
+        <activity
+            android:name="com.qq.e.union.demo.InterstitialADActivity"
+            android:label="@string/title_activity_interstitial_ad" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeADActivity"
+            android:label="@string/title_nativead"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.MultiProcessNativeADActivity"
+            android:label="@string/title_nativead"
+            android:process=":nativead"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.qq.e.union.demo.NativeVideoListDemoActivity"
+            android:label="@string/title_activity_gdtnative_video_ad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeVideoDemoActivity"
+            android:label="@string/title_activity_native_video_demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeVideoADActivity"
+            android:label="@string/title_activity_native_video_ad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeVideoRecyclerViewActivity"
+            android:label="@string/title_activity_native_video_recycler_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeVideoScrollViewActivity"
+            android:label="@string/title_activity_native_video_scroll_view"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeVideoPreMovieActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_native_video_pre_movie"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeExpressActivity"
+            android:label="@string/title_activity_native_express"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeExpressRecyclerViewActivity"
+            android:label="@string/title_activity_native_express_recycler_view"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

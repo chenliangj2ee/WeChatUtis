@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="200"
+    tools:ignore="UnusedAttribute"/>
+    <!--typeNotificationStateChanged|typeViewScrolled|typeWindowsChanged|typeViewClicked|typeWindowContentChanged|typeContextClicked|typeViewLongClicked|typeWindowStateChanged-->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              tools:context="com.qq.e.union.demo.NativeVideoPreMovieActivity">
+
+    <!-- 前贴广告父容器 高度不要写死，否则竖屏旋转到横屏之后可能无法铺满全屏 -->
+    <FrameLayout
+        android:id="@+id/ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <com.qq.e.ads.nativ.MediaView
+            android:id="@+id/gdt_media_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!-- 自定义倒计时 -->
+        <TextView
+            android:id="@+id/text_count_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:background="#60000000"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/button_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="6dp"
+            android:background="#60000000"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="了解更多"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+        <!-- 预加载视频前，先展示广告的大图素材 -->
+        <ImageView
+            android:id="@+id/ad_poster"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"/>
+    </FrameLayout>
+
+    <!-- 电影正文内容，开发者自由渲染，本示例仅仅简单演示一下，所以横屏竖屏的VideoView用同一套宽高布局，实际开发中应该更好地处理 -->
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="视频详情（旋转至横屏观看效果更佳~）"/>
+
+
+</LinearLayout>

@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:descendantFocusability="blocksDescendants"
+                tools:context="com.qq.e.union.demo.NativeVideoScrollViewActivity">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/scroll_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gdt_union"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="广点通移动联盟的优势"
+                android:textColor="#000000"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="依托腾讯大数据精准的人群分析能力和海量的优质广告素材，移动联盟通过丰富的广告样式为广大流量主提供最优质的商业化解决方案。 2015年3月，移动联盟合作日均流量已突破10亿大关。"
+                android:textColor="#9f000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="高额的收入回报"
+                android:textColor="#000000"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:text="收益=分成+激励"
+                android:textColor="#3992e3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="广点通移动联盟广告具有行业内较高的点击率，强大的定向能力建立在8亿庞大用户属性的智能分析上，通过对用户属性的精确分析，播放出用户最感兴趣的广告，每次广告曝光，都能获得广告主的激烈竞价。 2015年广点通不参与任何分成，收益全部回馈开发者，同时新增了激励奖金，期望与开发者建立良好的持续合作关系。"
+                android:textColor="#9f000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="多样的广告样式"
+                android:textColor="#000000"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:text="在样式创新的道路上走在行业最前沿"
+                android:textColor="#3992e3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="广点通移动联盟提供覆盖市面主流样式的合作，包括Banner、插屏、开屏、应用墙等多种广告展现形式。同时，广点通移动联盟在样式创新的道路上走在行业最前沿。凭借丰富的信息流广告经验，独创原生广告样式，使广告与播放环境高度融合，即能形成一致的用户体验，同时给开发者带来丰厚的收入。下面是广点通移动联盟强势推出原生视频广告！"
+                android:textColor="#9f000000"
+                android:textSize="16sp"/>
+
+            <RelativeLayout
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/ad_info_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:descendantFocusability="blocksDescendants">
+
+                    <ImageView
+                        android:id="@+id/img_logo"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="10dp"/>
+
+                    <Button
+                        android:id="@+id/btn_download"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@id/img_logo"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#80000000"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/text_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/img_logo"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toLeftOf="@id/btn_download"
+                        android:layout_toRightOf="@id/img_logo"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/text_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/img_logo"
+                        android:layout_below="@id/text_title"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_toLeftOf="@id/btn_download"
+                        android:layout_toRightOf="@id/img_logo"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+
+                <com.qq.e.ads.nativ.MediaView
+                    android:id="@+id/gdt_media_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ad_info_container"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:id="@+id/img_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/ad_info_container"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="海量的广告资源"
+                android:textColor="#000000"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:text="覆盖各类优质广告主"
+                android:textColor="#3992e3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="广点通移动联盟与海量优质广告主合作，覆盖游戏、电商、品牌等各类广告主数10万家以上，充足的广告资源确保广告拥有极高的填充率。同时严格把控广告质量，确保广告素材不影响用户体验。海量广告主和高品质的广告素材，既保证了广告的点击率，又能够提升开发者收益。"
+                android:textColor="#9f000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="贴心的金牌服务"
+                android:textColor="#000000"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:text="做开发者最贴心的合作伙伴"
+                android:textColor="#3992e3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="广点通移动联盟为开发者提供最贴心的金牌服务，一个工作日内完成审核，次月15号之前完成结算。微信服务号“广点通开发者服务平台”为开发者提供更加便捷的数据查看渠道和一对一贴心客服服务。开发者可通过微信服务号随时随地查看收益状况、进行一对一咨询。"
+                android:textColor="#9f000000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

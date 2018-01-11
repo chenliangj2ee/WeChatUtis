@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context="com.qq.e.union.demo.NativeExpressActivity">
+    <RelativeLayout
+        android:id="@+id/activity_native_express"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        tools:context="com.qq.e.union.demo.NativeExpressActivity">
+
+        <TextView
+            android:id="@+id/textWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="宽："/>
+
+        <EditText
+            android:id="@+id/editWidth"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="340"
+            android:maxLines="1"
+            android:layout_alignBottom="@id/textWidth"
+            android:layout_toRightOf="@id/textWidth"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/textHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/textWidth"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="高："/>
+
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="320"
+            android:maxLines="1"
+            android:layout_alignBottom="@id/textHeight"
+            android:layout_toRightOf="@id/textHeight"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/textSizeHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textHeight"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:text="单位为dp，可以在这里调出最合适的尺寸"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/buttonRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/textSizeHint"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="16dp"
+            android:text="加载广告"/>
+
+        <Button
+            android:id="@+id/buttonDestroy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textSizeHint"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="48dp"
+            android:text="调整尺寸"/>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonRefresh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>
+

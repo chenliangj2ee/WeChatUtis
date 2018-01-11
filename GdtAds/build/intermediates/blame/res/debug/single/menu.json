@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\debug\\menu\\banner.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\src\\main\\res\\menu\\banner.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\debug\\menu\\interstitial_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\src\\main\\res\\menu\\interstitial_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\src\\main\\res\\menu\\main.xml"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\listitem_nativevideo.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\listitem_nativevideo.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_interstitial_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_interstitial_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_gdtnative_video_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_gdtnative_video_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\item_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_express_recycler_view.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_express_recycler_view.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_video_recycler_view.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_video_recycler_view.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_banner.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_banner.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_video_demo.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_video_demo.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nativelistitem.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\nativelistitem.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_express_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\item_express_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_gdtnativead_demo.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_gdtnativead_demo.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_video_ad.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_video_ad.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_express.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_express.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_video_pre_movie.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_video_pre_movie.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_data.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\item_data.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_native_video_scroll_view.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_native_video_scroll_view.xml"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_splash.xml",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_splash.xml"
+    }
+]

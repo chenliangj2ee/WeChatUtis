@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_play.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_play.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_exit_fullscreen.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_exit_fullscreen.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_splash_logo.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_splash_logo.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_volume_on.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_volume_on.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bannerword.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bannerword.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_pause.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_pause.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_download.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_download.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_seekbar_progress.9.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_seekbar_progress.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_seekbar_background.9.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_seekbar_background.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_back.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_back.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_enter_fullscreen.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_enter_fullscreen.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdticon.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdticon.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_progress_thumb_normal.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_progress_thumb_normal.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_browse.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_browse.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_replay.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_replay.png"
+    },
+    {
+        "merged": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gdt_ic_volume_off.png",
+        "source": "D:\\workspace\\WeChat\\GdtAds\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gdt_ic_volume_off.png"
+    }
+]
